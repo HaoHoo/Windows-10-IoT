@@ -1,0 +1,59 @@
+{
+ "partitions" : [
+  {
+   "empty_fs" : true,
+   "filesystem_type" : "FAT",
+   "label" : "EFIESP",
+   "partition_size_nominal" : 64,
+   "requires_partition_number" : 2,
+   "tarball" : "",
+   "uncompressed_tarball_size" : 15,
+   "want_maximised" : false
+  },
+  {
+   "empty_fs" : true,
+   "filesystem_type" : "ntfs",
+   "label" : "MainOS",
+   "partition_size_nominal" : 1400,
+   "requires_partition_number" : 3,
+   "tarball" : "",
+   "uncompressed_tarball_size" : 1024,
+   "want_maximised" : false
+  },
+  {
+   "filesystem_type" : "ext4",
+   "label" : "scratch",
+   "mkfs_options" : "",
+   "partition_size_nominal" : 800,
+   "tarball" : "/mnt/os/Windows_10_IoT_Core/scratch.tar.xz",
+   "uncompressed_tarball_size" : 700,
+   "want_maximised" : false
+  },
+  {
+   "empty_fs" : true,
+   "filesystem_type" : "ext4",
+   "label" : "MBR_META",
+   "partition_size_nominal" : 4,
+   "tarball" : "",
+   "uncompressed_tarball_size" : 1,
+   "want_maximised" : false
+  },
+  {
+   "empty_fs" : true,
+   "filesystem_type" : "ntfs",
+   "label" : "Data",
+   "partition_size_nominal" : 1640,
+   "tarball" : "",
+   "uncompressed_tarball_size" : 30,
+   "want_maximised" : true
+  },
+  {
+   "empty_fs" : true,
+   "filesystem_type" : "FAT",
+   "label" : "tel",
+   "partition_size_nominal" : 2,
+   "uncompressed_tarball_size" : 1,
+   "want_maximised" : false
+  }
+ ]
+}
