@@ -21,5 +21,5 @@ https://go.microsoft.com/fwlink/?LinkId=846059 <br>
 Windows 10 IoT Core for MinnowBoard MAX <br>
 https://go.microsoft.com/fwlink/?linkid=846057 <br>
 
-Download Windows 10 IoT Core Dashboard
+Download Windows 10 IoT Core Dashboard <br>
 http://go.microsoft.com/fwlink/?LinkID=708576
